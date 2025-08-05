@@ -1,0 +1,198 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+nav{
+    background-color: #000000;
+}
+ul{
+    font-size: 23px;
+    display:flex;
+    justify-content: center;
+    padding: 2vh;
+    list-style: none;
+    gap: 4.5vw; 
+}
+a{
+    color:#fff6f6;
+    text-decoration: none; 
+    margin:0 1rem;
+    font: 2.9vw;
+    flex-wrap: wrap;
+
+}
+#sobre-mim p{
+  font-size: 23px;
+  
+}
+.texto-header{
+    height:21vh;
+    background-image: url(../images/MeuFundo-AnaT3.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 4px solid #7c7c7c;
+    flex-wrap: wrap;
+}
+section{
+    background-image: url(..//images/OutroFundoSubstitutoT3.jpg);
+    background-size: cover;
+    width:100%; 
+    border-bottom: 1px #2b2b2b;
+}
+#sobre-mim{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 23vh;
+    padding-top: 23vh;
+    gap: 23vh;
+    font-size: 34px;
+    font-family: Arial, serif;
+    font-style: italic;
+    border-bottom: 4px solid #2b2b2b;
+    flex-wrap: wrap;
+}
+#sobre-mim img{
+    height: auto;
+    align-items: center;
+    width: 50vh;
+    border-radius: 100%;
+    border: solid #eecbaa;
+    flex-wrap: wrap;
+    display: block;
+   
+}
+.elemento-de-sobre-mim{
+    max-width: 600px;
+}
+#projetos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    border-bottom: 4px solid #2b2b2b;
+}
+#projetos h2{
+   text-align: center;
+   color: black;
+   margin-bottom: 11vh;
+   font-size: 7vh;
+}
+.elemento-de-projetos {
+  display: flex;
+  gap: 10vh;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card-projeto {
+  padding: 15px;
+  text-align: center;
+  width: 38vh;
+}
+.card-projeto img {
+  max-width: 100%;
+  height: 100%;
+
+}
+.card-projeto p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+#contatos{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 120px;
+   font-size: 39px;
+}
+form{
+  border: 3px solid #2b2b2b;
+  font-size: 40px;
+  width: 720px;
+  padding: 50px;
+  text-align: center;
+  flex: content;
+  background-image: url(../images/outro-fundot3.jpg); 
+}
+input{
+  width: 100%;
+  padding: 10px;
+}
+label{
+    font-size: 27px;
+    
+}
+.item-de-formulario{
+  display: flex;
+  flex-direction:column;
+  align-items: start;
+}
+input[type="submit"]{
+  background-color: #f7f7f7;
+  border: 2px solid #6e6464;
+  padding: 4px;
+  width: 280px;
+  border-radius: 5px;
+  font-size: 0.3s;
+  gap: 67px;
+}
+footer{
+  background-image: url(..//images/OutroFundoSubstitutoT3.jpg);
+  color: #ff8d23;
+}
+@media (max-width: 425px){
+  .flex{
+    flex-direction: column-reverse;
+  }
+  .texto-header{
+     font-size: 23px;
+     display: flex;
+     gap: 3px;
+  }
+  header{
+    flex: content;
+  }
+#sobre-mim h2{
+  font-size: 30px;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 40px;
+  padding-right: 56px ;
+}
+  #sobre-mim p {
+    font-size: 12px ;
+    padding-left: 40px;
+    padding-right: 56px;
+  }
+  #sobre-mim img {
+    width: 36vh;
+  }
+  a{
+    display: flex;
+    align-items: center;
+  }
+  #projetos{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    gap: 3vh;
+    min-height: 100vh;
+  }
+  .img-projeto{
+      width: 75vw;
+      height: 95% !important;
+  }
+  form {
+    width: auto;
+  }
+  
+}
